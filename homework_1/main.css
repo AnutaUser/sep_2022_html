@@ -69,7 +69,7 @@ ul {
     border: 2px solid #FEE1AA;
     margin-left: 20px;
     margin-top: 20px;
-    height: 700px;
+    max-height: 700px;
 }
 
 .card h2 {
