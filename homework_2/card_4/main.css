@@ -1,0 +1,58 @@
+body {
+    background: #35cd9f;
+    box-sizing: border-box;
+}
+
+.cards {
+    height: 95%;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5%;
+}
+
+.card {
+    width: 26%;
+    height: 50%;
+    background: #162029;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 4% 2%;
+    box-sizing: border-box;
+}
+
+.quotes {
+    font-size: 5vh;
+    color: #38cba0;
+}
+
+p {
+    text-align: center;
+    font-size: 2.2vh;
+    color: #dfe5e5;
+}
+
+img {
+    width: 9vh;
+    height: 9vh;
+    border-radius: 50%;
+}
+
+h3 {
+    color: #38cba0;
+    text-transform: uppercase;
+}
+
+.title_1 {
+    text-transform: uppercase;
+    color: #162029;
+    font-size: 8vh;
+    margin-top: 6vh;
+    margin-bottom: 0;
+}
+
+.title_2 {
+    color: #162029;
+    font-size: 4vh;
+    margin-top: 0;
+}
