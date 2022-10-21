@@ -20,7 +20,6 @@
     align-items: center;
     padding: 8vh 4vh;
     position: relative;
-    z-index: -1;
 }
 
 .icon {
@@ -35,7 +34,6 @@
     font-size: 20px;
     position: absolute;
     bottom: 90%;
-    z-index: 1;
     background: #FFFFFF;
 }
 
@@ -49,4 +47,10 @@ button {
     height: 3rem;
     background: #FFFFFF;
     font-size: large;
+    transition: background-color;
+}
+
+button:hover {
+    background: #ebffff;
+    color: #08bcd4;
 }
