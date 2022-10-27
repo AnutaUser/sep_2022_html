@@ -1,14 +1,13 @@
-/*body {*/
-/*    margin: 0;*/
-/*    padding: 0;*/
-/*    box-sizing: border-box;*/
-/*}*/
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
 
 .container {
     width: 100%;
     background: #ced8e1;
-    /*padding: 0;*/
 }
+
 
 .bg_dark {
     background: #122d3f;
@@ -25,6 +24,7 @@
 .cl_violet {
     color: #6b64e4;
 }
+
 
 .menu {
     height: 9vh;
@@ -71,6 +71,7 @@
 
 .header_top_h2 {
     margin-bottom: 0;
+    margin-top: 18vh;
 }
 
 .header_top_button {
@@ -89,7 +90,7 @@
     display: flex;
     justify-content: space-between;
     position: relative;
-    top: 14vh;
+    top: 8vh;
 }
 
 .header_bottom_box {
@@ -104,11 +105,12 @@
 
 
 .main {
-    padding-top: 20vh;
+    padding-top: 30vh;
     display: flex;
     flex-direction: column;
     align-items: center;
 }
+
 
 .main_first {
     width: 80%;
@@ -118,11 +120,13 @@
     column-gap: 3%;
 }
 
+
 .main_second {
     width: 80%;
     display: flex;
     flex-wrap: wrap;
     column-gap: 4%;
+    row-gap: 4vh;
 }
 
 .main_second_rectangle {
@@ -133,5 +137,78 @@
     height: 35vh;
     width: 73vh;
     border-radius: 10px;
+}
 
+
+.main_third {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main_third_block {
+    width: 40vh;
+    height: 25vh;
+    border-radius: 10px;
+}
+
+
+.main_fourth {
+    width: 80%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+}
+
+.main_fourth_circle {
+    width: 25vh;
+    height: 25vh;
+    border-radius: 50%;
+}
+
+.main_fourth_content {
+    width: 120vh;
+}
+
+.second_page_button {
+    border: none;
+    height: 5vh;
+    width: 25vh;
+    border-radius: 10vh;
+    margin-bottom: 7vh;
+}
+
+
+.footer {
+    height: 25vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.footer_top {
+    width: 25vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_top_box {
+    width: 7vh;
+    height: 7vh;
+    border-radius: 10%;
+}
+
+.footer_bottom {
+    width: 46vh;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer_bottom_line {
+    height: 0.8vh;
+    width: 10vh;
+    border-radius: 10px;
 }

@@ -1,0 +1,76 @@
+.target {
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    background: #08bcd4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    /*transition: 1s;*/
+    animation-name: xxx;
+    animation-duration: 2000ms;
+    animation-iteration-count: infinite;
+    /*animation-delay: 3s;  !* затримка анімації *!*/
+    /*animation-play-state: paused;  !* анімація на паузі *!*/
+    animation-play-state: running;  /* анімація в русі */
+
+}
+
+.target:hover {
+    animation-play-state: running;
+}
+
+@keyframes xxx {
+    0% {
+        transform: rotate(0grad);
+    }
+    10% {
+        transform: rotate(15grad);
+    }
+    20% {
+        transform: rotate(-15grad);
+    }
+    30% {
+        transform: rotate(15grad);
+    }
+    40% {
+        transform: rotate(-15grad);
+    }
+    50% {
+        transform: rotate(15grad);
+    }
+   60% {
+        transform: rotate(-15grad);
+    }
+    70% {
+        transform: rotate(15grad);
+    }
+    80% {
+        transform: rotate(-15grad);
+    }
+    90% {
+        transform: rotate(15grad);
+    }
+    100% {
+        transform: rotate(-15grad);
+    }
+}
+
+/*@keyframes xxx {*/
+/*    0% {*/
+/*        width: 300px;*/
+/*    }*/
+/*    25%{*/
+/*        width: 600px;*/
+/*    }*/
+/*    50% {*/
+/*        width: 800px;*/
+/*    }*/
+/*    75% {*/
+/*        width: 600px;*/
+/*    }*/
+/*    100%{*/
+/*        width: 300px;*/
+/*    }*/
+/*}*/
