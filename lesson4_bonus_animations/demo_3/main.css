@@ -16,7 +16,7 @@ body {
     width: 100%;
     background: #6a65e2;
     position: relative;
-    left: -100vw;
+    left: -68vw;
     transition: 1s;
 }
 
@@ -31,7 +31,7 @@ body {
     width: 100%;
     background: #6a65e2;
     position: relative;
-    right: -50vw;
+    right: -68vw;
     top: 97%;
     transition: 1s;
 }

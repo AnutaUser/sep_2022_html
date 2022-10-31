@@ -1,0 +1,45 @@
+@media screen and (max-width: 500px) {
+    .target {
+        background: coral;
+        width: 100%;
+        height: 100vh;
+    }
+
+    .bcdef {
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .w-92 {
+        width: 92%;
+    }
+
+    .b-med {
+        border-radius: 2vh;
+    }
+
+    .bcde {
+        margin-bottom: 4vh;
+    }
+
+    .b {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+
+    .a , .f{
+        height: 18vh;
+    }
+
+    .c, .d, .e {
+        height: 12vh;
+        width: 12vh;
+    }
+
+    .f {
+        /*width: 100%;*/
+    }
+
+}

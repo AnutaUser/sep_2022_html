@@ -1,0 +1,54 @@
+.target {
+    background: cornflowerblue;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.bord {
+    box-sizing: border-box;
+    border: 2px solid gray;
+    border-radius: 1vh;
+}
+
+.w-98 {
+    width: 98%;
+}
+
+.h32 {
+    height: 32vh;
+}
+
+.w-30 {
+    width: 24vw;
+}
+
+.w-f {
+    width: 30vw;
+}
+
+.box-st {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 2rem;
+}
+
+.bcdef {
+    width: 98%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bcde {
+    margin-right: 1vw;
+}
+
+.cde {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1vh;
+}
